@@ -9,6 +9,6 @@ y2=sheet['C'][1:]
 X=list(map(getvalue,sheet['A'][1:]))
 Y1=list(map(getvalue,sheet['B'][1:]))
 Y2=list(map(getvalue,sheet['C'][1:]))
-pyplot.plot(X, Y1, label="Метка")
-pyplot.plot(X, Y2, label="Метка")
+pyplot.plot(X, Y1, label="Метка1")
+pyplot.plot(X, Y2, label="Метка2")
 pyplot.show()
